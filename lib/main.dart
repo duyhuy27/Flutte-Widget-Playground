@@ -1,9 +1,22 @@
+import 'package:basic_widget_30_1/widgets/alertDialog.dart';
+import 'package:basic_widget_30_1/widgets/animatedText.dart';
+import 'package:basic_widget_30_1/widgets/animated_bottom_nv.dart';
+import 'package:basic_widget_30_1/widgets/bottomSheetDialog.dart';
+import 'package:basic_widget_30_1/widgets/bottomnav.dart';
 import 'package:basic_widget_30_1/widgets/button.dart';
+import 'package:basic_widget_30_1/widgets/day19ui.dart';
+import 'package:basic_widget_30_1/widgets/day20.dart';
 import 'package:basic_widget_30_1/widgets/dismissibleWidget.dart';
 import 'package:basic_widget_30_1/widgets/drawerWidget.dart';
+import 'package:basic_widget_30_1/widgets/dropdown_list.dart';
+import 'package:basic_widget_30_1/widgets/form.dart';
+import 'package:basic_widget_30_1/widgets/geolocator.dart';
+import 'package:basic_widget_30_1/widgets/imagepicker.dart';
 import 'package:basic_widget_30_1/widgets/images.dart';
 import 'package:basic_widget_30_1/widgets/list_grid.dart';
 import 'package:basic_widget_30_1/widgets/snackbarWidget.dart';
+import 'package:basic_widget_30_1/widgets/stack.dart';
+import 'package:basic_widget_30_1/widgets/tabbar.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -19,8 +32,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-          brightness: Brightness.dark, primaryColor: Colors.blueAccent),
-      home: const ImageWidget(),
+          brightness: Brightness.light, primaryColor: Colors.blueAccent),
+      home: const Day20UI(),
     );
   }
 }

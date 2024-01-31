@@ -35,7 +35,7 @@ class ButtonWidget extends StatelessWidget {
             ),
 
             // su dung container de dinh dang kich thuong cua button
-            Container(
+            SizedBox(
               width: 300,
               height: 50,
               child: ElevatedButton(

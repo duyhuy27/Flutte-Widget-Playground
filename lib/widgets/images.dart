@@ -76,7 +76,7 @@ class _ImageWidgetState extends State<ImageWidget> {
               ),
             ),
 
-            SizedBox(
+            const SizedBox(
               height: 50,
             ),
 //! Cached Image network được sử dụng để load ảnh từ network sau đó sẽ lưu vào bộ nhớ cục bộ
