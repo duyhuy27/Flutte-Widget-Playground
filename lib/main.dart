@@ -6,6 +6,7 @@ import 'package:basic_widget_30_1/widgets/bottomnav.dart';
 import 'package:basic_widget_30_1/widgets/button.dart';
 import 'package:basic_widget_30_1/widgets/day19ui.dart';
 import 'package:basic_widget_30_1/widgets/day20.dart';
+import 'package:basic_widget_30_1/widgets/day21ui.dart';
 import 'package:basic_widget_30_1/widgets/dismissibleWidget.dart';
 import 'package:basic_widget_30_1/widgets/drawerWidget.dart';
 import 'package:basic_widget_30_1/widgets/dropdown_list.dart';
@@ -33,7 +34,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
           brightness: Brightness.light, primaryColor: Colors.blueAccent),
-      home: const Day20UI(),
+      home: const Day21UI(),
     );
   }
 }
