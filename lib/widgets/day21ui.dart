@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
+import 'package:google_fonts/google_fonts.dart';
+import 'package:neubrutalism_ui/neubrutalism_ui.dart';
 
 class Day21UI extends StatefulWidget {
   const Day21UI({super.key});
@@ -386,7 +388,23 @@ class _Day21UIState extends State<Day21UI> {
             ),
             const SizedBox(
               height: 20,
-            )
+            ),
+            NeuTextButton(
+              borderRadius: BorderRadius.circular(12),
+              buttonColor: const Color.fromARGB(255, 236, 199, 211),
+              buttonHeight: 60,
+              buttonWidth: 100,
+              enableAnimation: true,
+              text: Text(
+                "Hello",
+                style: GoogleFonts.robotoCondensed(
+                  textStyle: const TextStyle(
+                    fontSize: 20,
+                    fontWeight: FontWeight.w700,
+                  ),
+                ),
+              ),
+            ),
           ],
         ),
       ),
